@@ -14,15 +14,29 @@ This project is being created created using Node.js, Express, MongoDB, and Boots
 </ul>
 
 <h2>Technologies</h2> 
-HTML5 - markup language for creating web pages and web applications
-CSS3 - used for describing the presentation of a document written in a markup language
-Bootstrap - free and open-source front-end web framework for designing websites and web applications quickly
-jQuery - cross-platform JavaScript library designed to simplify the client-side scripting of HTML
-DOM Manipulation - is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document
-Node.js - pen-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side
-Express.js - for building web applications and APIs and connecting middleware
-REST - REST (REpresentational State Transfer) is an architectural style for developing web services
-MongoDB - open-source cross-platform document-oriented NoSQL database program to store details like users info, campgrounds info and comments
-PassportJS - authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application
-Data Associations - associating user data with the respective campgrounds and comments using reference method
-AWS - mongodb is hosted on amazon ec2 instance
+<ul>
+  <li>HTML5 - markup language for creating web pages and web applications.</li>
+  <li>CSS3 - used for describing the presentation of a document written in a markup language.</li>
+  <li>Bootstrap - free and open-source front-end web framework for designing websites and web applications quickly.</li>
+  <li>jQuery - cross-platform JavaScript library designed to simplify the client-side scripting of HTML</li>
+  <li>DOM Manipulation - is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document.</li>
+  <li>Node.js - pen-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side.</li>
+  <li>Express.js - for building web applications and APIs and connecting middleware.</li>
+    <li>REST - REST (REpresentational State Transfer) is an architectural style for developing web services.
+</li>
+  <li>MongoDB - open-source cross-platform document-oriented NoSQL database program to store details like users info, campgrounds info and comments.
+</li>
+  <li>PassportJS - authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application.
+</li>
+  <li>Data Associations - associating user data with the respective campgrounds and comments using reference method.
+</li>
+  <li>AWS - mongodb is hosted on amazon ec2 instance.
+
+</li>
+
+
+</ul>
+
+
+
+
