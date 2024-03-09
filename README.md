@@ -1,7 +1,9 @@
 # CampCalm
+A web platform tailored for camping enthusiasts, featuring user-friendly authentication, reviews, and effortless campground management.
+
 
 <h2>Introduction</h2>
-<a href="/">CampCalm</a> is a full-stack website project where users can create and review campgrounds. In order to review or create a campground, you must have an account. 
+<a href="/">CampCalm</a> is a full-stack website project where users can create and review campgrounds. In order to review or create a campground, you must have an account. This is a web platform tailored for camping enthusiasts, featuring user-friendly authentication, reviews, and effortless campground management. Whether you're a seasoned adventurer or new to camping, YelpCamp offers a community-driven space to share your outdoor experiences.
 
 
 <h2>Functionalities</h2> 
