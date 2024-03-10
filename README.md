@@ -1,6 +1,8 @@
 # CampCalm
 A web platform tailored for camping enthusiasts, featuring user-friendly authentication, reviews, and effortless campground management.
 
+![abby2](https://github.com/erenworld/campcalm/assets/144266052/c1afde8d-12a2-472d-b76e-12e7315783b0)
+
 
 <h2>Introduction</h2>
 <a href="/">CampCalm</a> is a full-stack website project where users can create and review campgrounds. In order to review or create a campground, you must have an account. This is a web platform tailored for camping enthusiasts, featuring user-friendly authentication, reviews, and effortless campground management. Whether you're a seasoned adventurer or new to camping, YelpCamp offers a community-driven space to share your outdoor experiences.
