@@ -1,18 +1,21 @@
 <% layout("layouts/boilerplate")%>
 <link rel="stylesheet" href="/styles/stars.css" />
-
 <div class="row">
   <div class="col-6">
-    <!-- carousel -->
     <div id="campgroundCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <% campground.images.forEach((img, i) => { %>
-        <div class="carousel-item <%= i === 0 ? 'active' : '' %>">
-          <img src="<%= img.url %>" class="d-block w-100" alt="First slide" />
+        <div class="carousel-item <%= i === 0 ? 'active' : ''%>">
+          <img
+            crossorigin="anonymous"
+            src="<%= img.url%>"
+            class="d-block w-100"
+            alt="img"
+          />
         </div>
         <% }) %>
       </div>
-      <% if(campground.images.length > 1) { %>
+      <% if(campground.images.length > 1) {%>
       <a
         class="carousel-control-prev"
         href="#campgroundCarousel"
@@ -33,7 +36,7 @@
       </a>
       <% } %>
     </div>
-    <!-- end   -->
+
     <div class="card mb-3">
       <div class="card-body">
         <h5 class="card-title"><%= campground.title%></h5>
@@ -42,7 +45,6 @@
       <ul class="list-group list-group-flush">
         <li class="list-group-item text-muted"><%= campground.location%></li>
         <li class="list-group-item">
-          <!-- revoir ici -->
           Submitted by <%= campground.author.username%>
         </li>
         <li class="list-group-item">$<%= campground.price%>/night</li>
@@ -67,6 +69,8 @@
     </div>
   </div>
   <div class="col-6">
+    <div id="map"></div>
+
     <% if(currentUser){ %>
     <h2>Leave a Review</h2>
     <form
@@ -79,7 +83,7 @@
                 <label class="form-label" for="rating">Rating</label>
                 <input class="form-range" type="range" min="1" max="5" name="review[rating]" id="rating">
             </div> -->
-      <fieldset class="starability-checkmark">
+      <fieldset class="starability-basic">
         <input
           type="radio"
           id="no-rate"
@@ -136,3 +140,10 @@
     <% } %>
   </div>
 </div>
+
+<script>
+  const mapToken = '<%-process.env.MAPBOX_TOKEN%>';
+  const campground = <%- JSON.stringify(campground) %>
+</script>
+
+<script src="/javascript/showMap.js"></script>

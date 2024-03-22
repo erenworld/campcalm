@@ -1,28 +1,62 @@
-<% layout("layouts/boilerplate")%>
-<h1>Login</h1>
-<form action="/login" method="POST" class="validated-form" novalidate>
-  <div class="mb-3">
-    <label class="form-label" for="username">Username</label>
-    <input
-      class="form-control"
-      type="text"
-      id="username"
-      name="username"
-      required
-    />
-    <div class="valid-feedback">Looks good!</div>
-  </div>
+<% layout('layouts/boilerplate')%>
 
-  <div class="mb-3">
-    <label class="form-label" for="password">Password</label>
-    <input
-      class="form-control"
-      type="password"
-      id="password"
-      name="password"
-      required
-    />
-    <div class="valid-feedback">Looks good!</div>
+<!-- <div class="container d-flex justify-content-center align-items-center mt-5">
+  <div class="row">
+    <div class="col-md-6 offset-md-3 col-xl-4 offset-xl-4">
+      <div class="card">
+        <img
+          src="https://images.unsplash.com/photo-1580842693665-cdae6f59814f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGNhbXB8ZW58MHx8MHx8fDA%3D"
+          alt="camp"
+          class="card-img-right"
+        />
+
+        <div class="card-body">
+          <h5 class="card-title">Sign in</h5>
+        
+        </div>
+      </div>
+    </div>
   </div>
-  <button class="btn btn-success">Login</button>
-</form>
+</div> -->
+
+<div class="page-wrapper bg-gra-01 p-t-180 p-b-100 font-poppins">
+  <div class="wrapper wrapper--w780">
+    <div class="card card-3">
+      <div class="card-heading">
+        <img
+          src="https://images.unsplash.com/photo-1602836947661-a0b3b9eb0b6d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTU1fHxjYW1wfGVufDB8fDB8fHww"
+          alt=""
+        />
+      </div>
+      <div class="card-body">
+        <h1 class="title">Signin</h1>
+        <form action="/login" method="POST" class="validated-form" novalidate>
+          <div class="mb-3">
+            <label class="form-label" for="username">Username</label>
+            <input
+              class="form-control"
+              type="text"
+              id="username"
+              name="username"
+              required
+            />
+            <div class="valid-feedback">Looks good!</div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="password">Password</label>
+            <input
+              class="form-control"
+              type="password"
+              id="password"
+              name="password"
+              required
+            />
+            <div class="valid-feedback">Looks good!</div>
+          </div>
+          <button class="btn btn-success btn-block">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
